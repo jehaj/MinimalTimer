@@ -2,9 +2,9 @@ let spanMinutes = document.getElementById('minutes');
 let spanSeconds = document.getElementById('seconds');
 
 let stringDateQuery = window.location.search.substring(1);
-const querySplit = stringDateQuery.split(':')[0];
-let hourQuery = stringDateQuery.split(':')[0];
-let minuteQuery = stringDateQuery.split(':')[1];
+const querySplit = stringDateQuery.split(':');
+let hourQuery = querySplit[0];
+let minuteQuery = querySplit[1];
 
 let countdownDate = new Date();
 countdownDate.setHours(parseInt(hourQuery), parseInt(minuteQuery), 0);
