@@ -1,7 +1,8 @@
 # MinimalTimer
 Denne hjemmeside er lavet til at bruge i OBS Studio. Den virker kun til bestemte formål.
 
-Url: https://nikolajk-htx.github.io/MinimalTimer/index.html?10:00
+URL: https://nikolajk-htx.github.io/MinimalTimer/index.html?10:00
+
 Bemærk det sidste "?10:00", hvor klokkeslættet bestemmer hvad der skal tælles ned til. 
 
 Nedenstående indstillinger virker godt, men man skal være forberedt på at prøve sig frem.
