@@ -5,8 +5,10 @@ Url: https://nikolajk-htx.github.io/MinimalTimer/index.html?10:00
 Bemærk det sidste "?10:00", hvor klokkeslættet bestemmer hvad der skal tælles ned til. 
 
 Nedenstående indstillinger virker godt, men man skal være forberedt på at prøve sig frem.
+```
 Width: 480
 Height: 240
+```
 
 ```
 body { 
